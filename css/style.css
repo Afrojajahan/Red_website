@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	background: url("../images/bg.png");
+	height: 660px;
+	background-size: 100% 100%;
+	position: relative;
+}
+.overlay{
+	background: rgba(172,26,31, 0.8);
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+}
+
+.nav-link{
+	color: #fff  !important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+	color: #000 !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color:  #000;
+}
+
+.header-text{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.header-text h5{
+	color: #C15962;
+	font-size:42px; 
+	font-family: 'Patrick Hand', cursive;
+	
+}
+.header-text h3{
+	font-size:40px; 
+	color:#fff;
+	font-family: 'Rosario', sans-serif;
+}
+.header-text p{
+	font-size:16px; 
+	color:#fff;
+}
+.btn-custom1, .btn-custom2{
+	width: 150px;
+	height: 35px;
+	border-radius: 30px;
+	color: #fff;
+	background: #000;
+	line-height:5px; 
+}
+.inquire{
+	background: #000;
+	height: 200px;
+}
+.inquire-paragraph p{
+	color: #8A8A8A;
+	float:left; 
+	margin-top: 30px;
+}
+.btn-custom2{
+	margin-top: 30px;
+	float: right;
+	background: #BF1C22;
+}
+.platform{
+	/* height: 850px; */
+}
+.platform-text h5{
+	color: #757575;
+	font-size:28px; 
+}
+.platform-text span{
+	color: #4E4E4E;
+	font-size:28px; 
+	padding: 0px 10px;
+}
+.platform-text p{
+	font-size:14px;
+	color: #757575;
+	font-weight:bold; 
+}
+.bar{
+	width: 1px;
+	height: 520px;
+	background: #969696;
+    margin: 0px auto;
+	float: right;
+}
+.platform-sidetext2 h5, ..platform-sidetext1 h5{
+	color: #969696;
+}
+.platform-sidetext2 p ,.platform-sidetext1 p{
+	font-size: 12px;
+	color:#BFC3C8;
+	width: 300px;
+	margin:0px  120px;
+}
+.platform-images img, .platform-sidebar img{
+	height: 200px;
+	width:200px;
+}
+.aboutus{
+	background: #D7454A;
+}
+.aboutus-text{
+	margin: 100px 0px;
+}
+.aboutus-text strong{
+	color: #fff;
+	font-size: 28px;
+}
+.aboutus-text h4{
+	color: #E8B9BB ;
+	font-size: 28px;
+}
+.aboutus-text p{
+	font-size: 10px;
+	color: #E8B9BB;
+}
+.element{
+	margin: 50px 0px;
+	
+	}
+.element-header{
+
+}
+.element-header h6{
+	float: left;
+    padding-right: 15px;
+}
+
+.bar2{
+	width: 400px;
+	height: 2px;
+	background: #E8B9BB;
+    margin: 10px 0px 0px 10px;
+    float: left;	
+}
+.element i{
+	float: left;
+	margin: 2px 0px 0px 0px;
+ 	color: #fff;
+	background: #BF1C22;
+	border-radius: 50%;
+	padding: 5px;
+	height: 20px;
+	width: 25px;
+	text-align: center;
+	font-size: 8px;
+	line-height: 10px;
+
+	
+}
+.element-text {
+	padding-right: 400px;
+	float: left;
+	margin: 0;
+}
+.box p{
+	margin: 100px 0px;
+	width: 280px;
+	height: 260px;
+	border: 3px dotted #E8B9BB;;
+	text-align: center;
+	padding: 100px 100px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+
+	}
+
+.profile{
+	background: #FFFFFF;
+}
+.profile-text p{
+	 width: 600px;
+     margin-left: 250px ;   
+	font-size: 14px;
+}
+.profile-part1 img{
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+}
+.profile-part1 h4,p{
+	color: #949495;
+}
+.profile-part1 p{
+	font-size: 14px;
+}
+
+.contact{
+	/* height: 200px; */
+	background: #000;
+}
+.contact-list, .form-part,.contact-part{
+	float: left;
+}
+.contact-list h4 , .contact-part h4{
+	color:#838282;
+}
+.contact-list  ul{
+	margin: 0;
+	padding: 0;
+	list-style: nane;
+}
+.contact-list  li{
+	display: inline-block;
+	padding: 5px;
+	color:#fff;
+	border-radius:7px 0px 7px 0px;
+	background: #323232; 
+}
+
+.contact-list  li i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align:center; 
+}
+.form-part h5{
+	color:#838282;
+
+}
+.form-part .form-control{
+	background: #323232;
+	border: none; 
+}
+.contact-part p{
+	font-size: 14px;
+}
+.info-part{
+	float: left;
+	margin-top: 30px;
+}
+.info-part h6{
+	color: #703638;
+	font-size: 14px;	
+}
+.info-part p{
+	margin: 0;
+}
+.bar3{
+	width: 2px;
+	height: 80px;
+	background: #969696;
+   	margin: 10px auto;
+	float: right;
+}
